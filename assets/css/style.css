@@ -7,6 +7,8 @@
   box-sizing: border-box;
 }
 body {
+  max-width: 1600px;
+  margin: 0 auto;
   font-family: "Nunito Sans", sans-serif;
 }
 /* Header CSS */
@@ -139,4 +141,75 @@ body {
   line-height: 26px;
   color: #727272;
   margin: 24px 0 32px;
+}
+/* Experiences CSS */
+.experiences {
+  display: flex;
+  justify-content: space-between;
+  gap: 90px;
+  padding: 50px 0;
+}
+.experiences .experience-list {
+  width: 75%;
+}
+.experiences .experience-list h2 {
+  font-size: 40px;
+  color: #171717;
+  margin-left: 25px;
+  position: relative;
+}
+.experiences .experience-list h2::before {
+  content: "";
+  width: 5px;
+  height: 100%;
+  background-color: #7fb77e;
+  position: absolute;
+  left: -25px;
+  top: 0;
+  border-radius: 20px;
+}
+.experiences .experience-list p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin: 24px 0 30px;
+}
+.experiences .image-box img {
+  width: 100%;
+  border-radius: 8px;
+}
+.experiences .experience-list .experience-detail {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 18px;
+}
+.experiences .experience-list .experience-detail h4 {
+  font-size: 16px;
+  color: #171717;
+}
+.experiences .experience-list .experience-detail p {
+  font-size: 14px;
+  margin: 10px 0 0;
+}
+.experiences .image-box {
+  position: relative;
+}
+.experiences .image-box img {
+  width: 100%;
+}
+.experiences .image-box .year-box {
+  position: absolute;
+  left: -12%;
+  bottom: -15px;
+  padding: 30px 35px;
+  text-align: center;
+  background-color: #7fb77e;
+  color: #ffffff;
+  border-radius: 8px;
+}
+.experiences .image-box .year-box h3 {
+  font-size: 40px;
+  font-weight: 700;
 }
