@@ -9,3 +9,92 @@
 body {
   font-family: "Nunito Sans", sans-serif;
 }
+/* Header CSS */
+.main-header {
+  background-color: #f7f6dc;
+  padding: 30px 0;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+/* Navigation CSS */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu .brand-title h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #7fb77e;
+  text-transform: capitalize;
+}
+.menu .menu-items {
+  display: flex;
+  align-items: center;
+}
+.menu .menu-items li {
+  margin-right: 45px;
+  list-style: none;
+}
+.menu .menu-items li:last-child {
+  margin-right: 0;
+}
+.menu .menu-items li a {
+  text-decoration: none;
+  color: #7fb77e;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 400;
+  transition: color 0.3s;
+}
+.menu .menu-items li a:hover {
+  color: #ffc090;
+}
+/* Banner Area CSS */
+.banner-area {
+  margin-top: 50px;
+}
+.banner-content {
+  text-align: center;
+  padding: 0 200px;
+}
+.banner-content h1 {
+  font-size: 60px;
+  line-height: 75px;
+  color: #7fb77e;
+  text-transform: capitalize;
+}
+.banner-content h1 span {
+  text-transform: lowercase;
+}
+.banner-content p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin: 28px 0;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #7fb77e;
+  color: #f7f6dc;
+  font-size: 17px;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 16px 36px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+.btn-primary:hover {
+  background-color: #ffc090;
+  transform: translateY(10px);
+}
+.banner-content .btn-primary {
+  margin-bottom: 50px;
+}
+.banner-img img {
+  width: 100%;
+  border-radius: 8px;
+}
