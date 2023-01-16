@@ -325,7 +325,7 @@ body {
   color: #727272;
   font-size: 16px;
 }
-.contact ul li a i {
+.contact ul li i {
   color: #7fb77e;
   font-size: 18px;
   margin-right: 6px;
@@ -350,6 +350,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin-top: 10px;
 }
 .contact .contact-form form input,
 textarea {
@@ -375,4 +376,23 @@ textarea {
 }
 .contact .contact-form form input[type="submit"]:hover {
   background-color: #ffc090;
+}
+/* Footer CSS */
+.main-footer {
+  padding: 40px 0;
+}
+.main-footer .copyright {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ffc090;
+  padding: 20px 0;
+  border-radius: 6px;
+}
+.main-footer .copyright p {
+  font-size: 14px;
+  color: #727272;
+}
+.main-footer .copyright span {
+  color: #7fb77e;
 }
