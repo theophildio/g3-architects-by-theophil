@@ -267,3 +267,36 @@ body {
   font-size: 14px;
   color: #727272;
 }
+/* Sponsors CSS */
+.sponsors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+.sponsors .sponsor-title {
+  width: 40%;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.sponsors .sponsor-title h2 {
+  font-size: 40px;
+  color: #171717;
+  text-transform: capitalize;
+}
+.sponsors .sponsor-title p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin: 20px 0 30px;
+}
+.sponsors .sponsors-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
+.sponsors .sponsors-logo .logo img {
+  width: 80%;
+  cursor: pointer;
+}
