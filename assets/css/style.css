@@ -396,3 +396,64 @@ textarea {
 .main-footer .copyright span {
   color: #7fb77e;
 }
+
+/* Responsive CSS for Mobile Only */
+@media screen and (max-width: 575px) {
+  .container {
+    width: 90%;
+  }
+  .menu,
+  .menu-items,
+  .features,
+  .experiences,
+  .achivement-titles,
+  .sponsors .sponsors-logo,
+  .contact {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .menu .menu-items li {
+    margin-right: 0;
+  }
+  .banner-area {
+    margin-top: 30px;
+  }
+  .banner-content {
+    padding: 0;
+  }
+  .banner-content h1 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .features {
+    gap: 30px;
+    padding: 50px 0;
+  }
+  .feature-images {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+  .feature-images,
+  .feature-content,
+  .experiences .experience-list,
+  .achivment-intro,
+  .sponsors .sponsor-title,
+  .contact-info,
+  .contact-form,
+  .main-footer .copyright {
+    width: 100%;
+  }
+  .feature-content {
+    padding-right: 0;
+  }
+  .experiences .image-box .year-box {
+    position: absolute;
+    left: 50%;
+    bottom: -10%;
+    padding: 20px 30px;
+    transform: translate(-50%, 0);
+  }
+  .achivement-titles .awards {
+    width: 60%;
+  }
+}
