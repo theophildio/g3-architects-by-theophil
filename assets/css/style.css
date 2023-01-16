@@ -300,3 +300,79 @@ body {
   width: 80%;
   cursor: pointer;
 }
+/* Contact CSS */
+.contact {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 50px 0;
+}
+.contact-info,
+.contact-form {
+  width: 50%;
+}
+.contact h2 {
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #171717;
+}
+.contact ul li {
+  list-style: none;
+  padding: 10px 0;
+}
+.contact ul li a {
+  text-decoration: none;
+  color: #727272;
+  font-size: 16px;
+}
+.contact ul li a i {
+  color: #7fb77e;
+  font-size: 18px;
+  margin-right: 6px;
+}
+.contact .social-icons {
+  margin-top: 15px;
+}
+.contact .social-icons ul {
+  display: flex;
+}
+.contact .social-icons ul li {
+  margin-right: 14px;
+}
+.contact .social-icons ul li a i {
+  font-size: 25px;
+  transition: color 0.3s;
+}
+.contact .social-icons ul li a:hover i {
+  color: #ffc090;
+}
+.contact .contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact .contact-form form input,
+textarea {
+  display: inline-block;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #727272;
+  border-radius: 5px;
+  outline: 0;
+}
+.contact .contact-form form textarea {
+  resize: vertical;
+}
+.contact .contact-form form input[type="submit"] {
+  width: 25%;
+  background-color: #7fb77e;
+  color: #ffffff;
+  border: 0;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: 0.3s;
+  padding: 15px 20px;
+}
+.contact .contact-form form input[type="submit"]:hover {
+  background-color: #ffc090;
+}
